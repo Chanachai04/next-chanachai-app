@@ -33,6 +33,13 @@ export default function page() {
             className="text-xl text-[#FF5C00] border-b border-[#685D5D] focus:outline-none "
           />
         </div>
+        <div className="pl-10 pr-16">
+          <input type="checkbox" className="border border-[#FFE2E2] " />
+          <label className="pl-2 text-[#FFE2E2] text-[12px]">I would like to receive the newsletter.</label>
+        </div>
+        <div className="pb-2 pl-10 pr-16 pt-10">
+          <button className="bg-[#FF5C00] text-white rounded-2xl py-2 w-[50%] text-3xl">submit</button>
+        </div>
       </form>
     </div>
   );
